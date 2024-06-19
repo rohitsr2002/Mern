@@ -1,0 +1,68 @@
+/* .btn{
+background-color: green;
+color: #000500;
+width: fit-content;
+margin: 10px auto;
+font-size: 16px;
+padding: 0.4em 1em;
+border-radius: 0.5em;
+border: none;
+opacity: 0.8;
+transition: scale 300ms ease;
+
+}
+.btn:hover{
+    opacity:1;
+    cursor:pointer;
+    scale: 1.2;
+
+}
+.btn:active{
+    color: yellow;
+} */
+ /* first and last child condition can be applied only if a list has first tag as li and last tag as li of the list */
+ li:last-child{
+    color: red;
+ }
+ li:first-child{
+    color: orange;
+ }
+ li:nth-child(2)
+ {
+    color:orange;
+ }
+ p:first-child{
+    font-size: 2em;
+    color: black;
+    font-style: bold;
+
+ }
+ /* li first of type searches first li tag in that list and that  changes woill be made */
+ li:first-of-type{              
+    color:blue;
+    background-color: green;
+ }
+ /* all p tags which have first in any other tag such as first p in body first p in ul or 1st p in div will be affected to 
+ to remove this we add ul in front and nest the condition so it will only affect ul */
+ul  p:first-of-type{
+    color:aqua;
+
+ }
+ .child{
+    background-color: orange;
+    flex-basis: 100px;
+    /* flex basis gives a default size of a element same as width because after apllying flex there was no space b/w elements  */
+
+ }
+ /* flex just make all the div tags wrap to each other and put all contents in single line instead of each div in new line */
+.parent{
+    display: flex;
+   
+}
+.child2{
+    /* flex grow is to make a width of any particular part according to remaining size available  */
+    flex-grow: 2;
+    /* flex shrink 0 will make child 2 not shrink when space available is less like page open in a small window  */
+    flex-shrink:0;
+
+}

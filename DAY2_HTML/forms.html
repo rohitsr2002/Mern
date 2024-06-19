@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms
+    </title>
+</head>
+<body>
+    <form action="./contact.html" novalidate>  <!--no validate allows you to submit empty form without entering data-->
+        <label>Username:</label><br>
+        <input type="text" placeholder="PLease enter name" name="username"><br>
+        <input type="number" placeholder="PLease enter age" value="age" name="age"><br>
+        <label>Gender:</label>
+        <input type="radio"value="male" name="gender"><label>male</label>
+        <input type="radio"value="female"name="gender"><label>female</label><br>
+        <input type="checkbox" value="painitng">
+        <input type="checkbox" value="dancing" autocomplete="off"> <!-- autocomplete is requred for texxt suggessions in input previous used names are shown-->
+           <br>
+           <select name="city" id="city" >
+            <option value="delhi">delhi</option>
+            <option value="agra">agra</option>
+           </select>
+        <textarea name="hii" id="hi" rows="10" cols="10"></textarea><br>
+        <input type="submit" value="done">   <!--value is the name on the submit button by default name will be submit -->
+        <input type="reset" value="clear"><br> <!--value is the name on the reset button by default name will be reset -->
+    </form>
+</body>
+</html>

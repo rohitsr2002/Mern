@@ -1,0 +1,64 @@
+h4{
+    color:green
+    
+}
+.c1.heading{
+    font-size:32px;
+}
+
+.root{
+    background-color: #b85858;
+    padding:12px;
+    margin: 12px;
+    border: 2px solid forestgreen;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+div{
+    background-color: aquamarine;
+    font-size:10px;
+    margin : auto;
+
+
+}
+p{
+    background-color: #b85858;
+    font-size: 2em;
+    width: fit-content;
+}
+div{
+    background-color: aqua;
+    font-size: 10px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    background-color: bisque;
+    font-size: 2em;
+    width: 10em;
+}
+.btn{
+    display: block;
+    background-color: rgb(4, 170, 109);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin: 10px auto;
+
+    font-size: 16px;
+    padding: 0.4em 1em;
+    border-radius:0.5em ;
+    border: none;
+}
+.big{
+    font-size: 24px;
+}
+.small{
+    font-size: 12px;
+}

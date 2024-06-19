@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../DAY1_HTML"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../DAY2_CSS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DAY2_CSS"
+	}
+}
